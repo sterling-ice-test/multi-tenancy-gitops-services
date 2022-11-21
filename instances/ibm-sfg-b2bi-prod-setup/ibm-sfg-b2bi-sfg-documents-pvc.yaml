@@ -17,5 +17,5 @@ spec:
   resources:
     requests:
       storage: 500Mi
-  storageClassName: managed-nfs-storage
+  storageClassName: ocs-storagecluster-cephfs
   volumeMode: Filesystem
